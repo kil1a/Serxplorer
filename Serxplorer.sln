@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serxplorer", "Serxplorer\Serxplorer.csproj", "{C0845ABA-A3B0-4232-AE75-5EE074CEB072}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{F10B2B1E-3F46-4A74-A579-CCCF0541D2D6}"
+	ProjectSection(SolutionItems) = preProject
+		FileSystemExplorerService.cs = FileSystemExplorerService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{8604FA97-283F-4BCE-A006-DFCEC7DD9D49}"
+	ProjectSection(SolutionItems) = preProject
+		directoryViewer.xaml = directoryViewer.xaml
+		ExplorerWindow.xaml = ExplorerWindow.xaml
+		fileSystemTree.xaml = fileSystemTree.xaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{385B0B12-B1CC-48BE-93C1-26BF8C5D6C90}"
+	ProjectSection(SolutionItems) = preProject
+		DirectoryViewerViewModel.cs = DirectoryViewerViewModel.cs
+		BaseViewModel.cs = BaseViewModel.cs
+		dirInfo.cs = dirInfo.cs
+		ExplorerWindowViewModel.cs = ExplorerWindowViewModel.cs
+		FileExplorerViewModel.cs = FileExplorerViewModel.cs
+		relayCommand.cs = relayCommand.cs
+		valueConverters.cs = valueConverters.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0845ABA-A3B0-4232-AE75-5EE074CEB072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0845ABA-A3B0-4232-AE75-5EE074CEB072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0845ABA-A3B0-4232-AE75-5EE074CEB072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0845ABA-A3B0-4232-AE75-5EE074CEB072}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E37392A3-6BB6-4708-BB8E-9CE0081A7718}
+	EndGlobalSection
+EndGlobal
